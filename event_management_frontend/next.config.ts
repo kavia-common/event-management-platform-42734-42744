@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export",
+  reactStrictMode: true,
+  // Ensure SSR allowed; do not set output: "export"
 };
 
 export default nextConfig;
